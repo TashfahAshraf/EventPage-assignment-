@@ -37,6 +37,41 @@ header nav a:hover {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
+/* Speakers Section */
+#speakers {
+  padding: 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.speaker-card {
+  display: inline-block;
+  margin: 1rem;
+  background: #eee;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.speaker-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Schedule Section */
+#schedule {
+  padding: 2rem;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+#schedule ul {
+  list-style: none;
+}
+
+#schedule li {
+  padding: 0.5rem 0;
+}
 
 </style>
 <body>
@@ -53,4 +88,28 @@ header nav a:hover {
 <section class="hero">
   <h2>Join the biggest tech event of the year!</h2>
   <p>Date: July 10, 2025 | Venue: Expo Center, Lahore</p>
+</section>
+
+<section id="speakers">
+  <h2>Featured Speakers</h2>
+  <div class="speaker-card">
+    <img src="images/speaker1.jpg" alt="Speaker 1">
+    <h3>Ayesha Khan</h3>
+    <p>AI Researcher, XYZ Labs</p>
+  </div>
+  <div class="speaker-card">
+    <img src="images/speaker2.jpg" alt="Speaker 2">
+    <h3>Ali Raza</h3>
+    <p>Full Stack Developer, ABC Tech</p>
+  </div>
+</section>
+
+<section id="schedule">
+  <h2>Event Schedule</h2>
+  <ul>
+    <li>10:00 AM - Opening Ceremony</li>
+    <li>11:00 AM - Keynote: Future of AI</li>
+    <li>1:00 PM - Networking Lunch</li>
+    <li>2:00 PM - Web Dev Workshop</li>
+  </ul>
 </section>
